@@ -6,7 +6,7 @@ applications:
                 preBuild:
                     commands:
                         - 'yarn install'
-                        - 'yarn cli add-extension ohif-aws-healthimaging'
+                        # - 'yarn cli add-extension ohif-aws-healthimaging'
                 build:
                     commands:
                         - 'yarn run build'
